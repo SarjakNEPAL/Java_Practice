@@ -45,6 +45,22 @@ public class VariableClass {
      * boolean boolVal3='false';// wrong datatype
      * short shortVal=10000000;// cannot exceed min or max
      */
+    /*We need to use object */
+    System.out.println(variableObj.instanceVariable);
+    System.out.println(VariableClass.staticVariable);
 
+    /*Type casting
+     * Implicit type casting(automatic)
+     * From smaller type to larger type
+     */
+    int intValueConvert = 10;
+    double intValueConvertToDouble=intValueConvert;
+    /*
+     Explicit type casting(manual)
+     from larger type to smaller type
+     */
+    double doubleValueConvert= 19.23d;
+    int doubleValueConvertToInt=(int) doubleValue;
+    
     }
 }
