@@ -1,0 +1,30 @@
+The fundamental datatype that are predefined in JAVA used to store that type of 
+datatype is called primitive datatype,  ->basic datatype
+
+
+
+declaring the datatype in a variable >> declaring variable
+syntax:
+
+datatype identifier_name = value; 
+
+ "_" can be used as comma in long integers eg: 10,000 as 10_000
+
+
+The datatype created by the user is called non primtive datatype. 
+also called reference vvariable or object references.
+
+the first letter must be upper case in all non primitive datatype
+for eg
+    String a;
+    greetings="momo";
+
+Array are the collection of multiple data with same datatype
+
+Interface is the function wothout datatype //pachi aaucha;
+;
+
+Differences are given in College notes<> 
+
+
+
