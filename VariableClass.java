@@ -25,5 +25,14 @@ public class VariableClass {
     String stringInfo2= new String("Class");
     /*Object ise the same class as written above */
     VariableClass variableObj=new VariableClass();
+    
+    /*
+     *  I LLEGAL ACTIONS FOLLOWING:
+     * byte byteValue= 10; //you cannot redeclare
+     * byteValue=20;//instead reassign not illegal
+     * boolean boolVal3='false';// wrong datatype
+     * short shortVal=10000000;// cannot exceed min or max
+     */
+
     }
 }
