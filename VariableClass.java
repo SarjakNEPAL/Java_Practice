@@ -1,4 +1,16 @@
 public class VariableClass {
+    /*
+    Instance variable
+    access with object 
+    is not shared with other object
+    
+    */    
+    int instanceVariable = 120;
+    /*Static variable
+     * access with class
+     * is shared with  other object
+     */
+    static int staticVariable=200;
     public static void main(String[] args) {
         /*primitive datatype
          * Declaration
