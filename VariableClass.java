@@ -27,6 +27,5 @@ public class VariableClass {
     String stringInfo2= new String("Class");
     /*Object ise the same class as written above */
     VariableClass variableObj=new VariableClass();
-    
     }
 }
